@@ -5,6 +5,15 @@ body{
     background-color: #FBFBFB;
 }
 
+.swiper-pagination-bullets {
+    position: relative !important;
+    margin-top: 1.6rem;
+}
+
+.swiper-pagination-bullet-active{
+    background-color: #FFC637 !important;
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
