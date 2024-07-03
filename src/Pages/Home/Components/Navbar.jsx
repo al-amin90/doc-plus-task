@@ -1,6 +1,7 @@
 import React from "react";
 import PrimaryBtn from "../../../components/PrimaryBtn";
 import logo from "../../../assets/logo dark.png";
+import { GoArrowUpRight } from "react-icons/go";
 
 const Navbar = () => {
   const navLinks = (
@@ -46,7 +47,12 @@ const Navbar = () => {
           <ul className="menu menu-horizontal px-1">{navLinks}</ul>
         </div>
         <div className="navbar-end">
-          <PrimaryBtn text={"Appointment"} color="#020043"></PrimaryBtn>
+          <button
+            className={`flex text-base font-medium border border-[#020043] text-[#020043] rounded-xl py-3  px-6`}
+          >
+            Appointment
+            <GoArrowUpRight className="text-2xl text-[#020043]"></GoArrowUpRight>
+          </button>
         </div>
       </div>
     </div>

@@ -8,18 +8,34 @@ import Appointment from "./Components/Appointment";
 import Faq from "./Components/Faq";
 import Testimonial from "./Components/Testimonial";
 import Footer from "./Components/Footer";
+import backgroundImage from "../../assets/back3.png";
+import backgroundImage2 from "../../assets/back4.png";
 
 const Home = () => {
   return (
     <div>
-      <Navbar></Navbar>
-      <Banner></Banner>
-      <ComprehensiveCare></ComprehensiveCare>
+      <div
+        className="bg-no-repeat bg-cover"
+        style={{ backgroundImage: `url(${backgroundImage})` }}
+      >
+        <Navbar></Navbar>
+        <Banner></Banner>
+        <ComprehensiveCare></ComprehensiveCare>
+      </div>
       <Soultions></Soultions>
       <Service></Service>
       <Testimonial></Testimonial>
-      <Faq></Faq>
-      <Appointment></Appointment>
+      <div
+        className="bg-no-repeat bg-cover"
+        style={{
+          backgroundImage: `url(${backgroundImage2})`,
+          backgroundPosition: "bottom",
+        }}
+      >
+        <Faq></Faq>
+        <Appointment></Appointment>
+      </div>
+
       <Footer></Footer>
     </div>
   );
