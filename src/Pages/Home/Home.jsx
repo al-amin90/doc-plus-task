@@ -5,6 +5,7 @@ import ComprehensiveCare from "./Components/ComprehensiveCare";
 import Soultions from "./Components/Soultions";
 import Service from "./Components/Service";
 import Appointment from "./Components/Appointment";
+import Faq from "./Components/Faq";
 
 const Home = () => {
   return (
@@ -14,6 +15,7 @@ const Home = () => {
       <ComprehensiveCare></ComprehensiveCare>
       <Soultions></Soultions>
       <Service></Service>
+      <Faq></Faq>
       <Appointment></Appointment>
     </div>
   );
