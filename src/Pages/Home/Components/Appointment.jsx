@@ -27,7 +27,13 @@ const Appointment = () => {
                   Appointment
                   <GoArrowUpRight className="text-2xl "></GoArrowUpRight>
                 </button>
-                <PrimaryBtn text={"Learn More"} color="#020043"></PrimaryBtn>
+
+                <button
+                  className={`flex text-base font-medium border border-white text-white rounded-xl py-3  px-6`}
+                >
+                  Learn More
+                  <GoArrowUpRight className="text-2xl text-white"></GoArrowUpRight>
+                </button>
               </div>
             </div>
 
