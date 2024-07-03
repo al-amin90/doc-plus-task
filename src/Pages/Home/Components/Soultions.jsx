@@ -33,6 +33,7 @@ const Soultions = () => {
         {/* right side */}
         <div className="flex-1 relative ">
           <img src={imgPeople} alt="" />
+          {/* massage box */}
           <div className="p-7 -bottom-10 -left-24 absolute w-96 rounded-[30px] text-white bg-[#343268]">
             <h5 className="font-medium text-2xl mb-2">Our mission is simple</h5>
             <p className="font-normal text-base opacity-80">
