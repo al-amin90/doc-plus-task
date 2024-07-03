@@ -4,7 +4,7 @@ import Home from "../Pages/Home/Home";
 const Main = () => {
   return (
     <div>
-      <h1>I am main layout</h1>
+      {/* This is home page component */}
       <Home></Home>
     </div>
   );
